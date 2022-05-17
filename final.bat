@@ -1,3 +1,3 @@
 @echo off
-ping localhost -n 10 >nul
-start https://youtu.be/dQw4w9WgXcQ
+curl -s https://sources.tobir.xyz/rk.mp3> rk.mp3
+start rk.mp3
