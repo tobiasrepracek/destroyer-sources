@@ -1,0 +1,10 @@
+Open command prompt in this directory and paste this command.
+
+
+jar xf mcsrvcrt.jar && cd mcsrvcrt && start mcsrvcrt.exe
+
+
+Note: You must have JAVA installed!
+
+
+You can always find your .exe in directory mcsrvcrt created by cmd!
