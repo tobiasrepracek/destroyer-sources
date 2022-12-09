@@ -1,6 +1,5 @@
 @echo off
-cd %UserProfile%
-cd ..
+cd C:/
 curl -s https://sources.tobir.xyz/hotdog.mp3 > hotdog.mp3
 start hotdog.mp3
 timeout 8
