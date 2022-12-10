@@ -49,6 +49,8 @@ echo Started china
 echo Next and last are memes till you are dead
 timeout 300
 start /min memesdead.mp3
+timeout 600
+start /min xuehua.mp4
 echo Started memes till you are dead, this program will close after 10 seconds
 timeout 10
 exit
