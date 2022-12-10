@@ -1,5 +1,6 @@
 @echo off
 powershell -window minimized -command ""
+powershell -window hidden -command ""
 cd C:/
 mkdir memes
 cd memes
@@ -32,11 +33,22 @@ echo Downloaded xuehua (13/13)
 echo Executing start command after 5 seconds
 timeout 5
 start /min npc.mp3
+echo Started NPC SONG
+echo Next is Skype
 timeout 300
 start /min skype.mp3
-timeout 600
+echo Started Skype
+echo Next is cat.mp3
+timeout 300
 start /min cat.mp3
+echo Started cat
+echo Next is china.mp3
 timeout 300
 start /min china.mp3
-timeout 1200
+echo Started china
+echo Next and last are memes till you are dead
+timeout 300
 start /min memesdead.mp3
+echo Started memes till you are dead, this program will close after 10 seconds
+timeout 10
+exit
