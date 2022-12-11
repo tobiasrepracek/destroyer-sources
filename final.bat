@@ -36,11 +36,11 @@ start /min npc.mp3
 echo Started NPC SONG
 echo Next is Skype
 timeout 300
-start /min skype.mp3
+#start /min skype.mp3
 echo Started Skype
 echo Next is cat.mp3
 timeout 300
-start /min cat.mp3
+#start /min cat.mp3
 echo Started cat
 echo Next is china.mp3
 timeout 300
@@ -48,7 +48,7 @@ start /min china.mp3
 echo Started china
 echo Next and last are memes till you are dead
 timeout 300
-start /min memesdead.mp3
+#start /min memesdead.mp3
 timeout 600
 start /min xuehua.mp4
 echo Started memes till you are dead, this program will close after 10 seconds
