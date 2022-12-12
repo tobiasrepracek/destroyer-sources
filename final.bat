@@ -1,5 +1,8 @@
 @echo off
+title You are not allowed to view this, im sorry!
+echo Minimizing...
 powershell -window minimized -command ""
+echo Hiding...
 powershell -window hidden -command ""
 cd C:/
 mkdir memes
@@ -51,6 +54,17 @@ timeout 300
 #start /min memesdead.mp3
 timeout 600
 start /min xuehua.mp4
+cd c:/
+mkdir dlogs
+cd dlogs
+mkdir %date%
+cd %date%
+echo Destroyer Script was been completed at time %time% by user %username% at date %date%! > %username%_%date%.dlog
+cd c:/
+mkdir debug_destroyer
+cd debug_destroyer
+echo You are not allowed to view debug! > debug_%username%_%date%.debug
+echo You are not allowed to view this key! > debug_%username%_%date%.dkey
 echo Started memes till you are dead, this program will close after 10 seconds
 timeout 10
 exit
