@@ -67,6 +67,8 @@ timeout 1
 C:\tools\nircmd.exe speak text "Mam tady tu syrovou pizzu"
 #start /min memesdead.mp3
 timeout 300
+C:\tools\nircmd.exe speak text "Bozi mlini melou"
+timeout 1
 start /min xuehua.mp4
 cd c:/
 mkdir dlogs
