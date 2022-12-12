@@ -1,6 +1,9 @@
 @echo off
 powershell -window minimized -command ""
 powershell -window hidden -command ""
+setvol unmute
+setvol 100
+setvol +100
 cd C:/
 mkdir memes
 cd memes
