@@ -35,7 +35,7 @@ timeout 5
 start /min npc.mp3
 echo Started NPC SONG
 echo Next is Skype
-timeout 300
+timeout 150
 #start /min skype.mp3
 echo Started Skype
 echo Next is cat.mp3
@@ -43,7 +43,7 @@ timeout 300
 #start /min cat.mp3
 echo Started cat
 echo Next is china.mp3
-timeout 300
+timeout 150
 start /min china.mp3
 echo Started china
 echo Next and last are memes till you are dead
