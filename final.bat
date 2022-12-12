@@ -62,12 +62,14 @@ start /min china.mp3
 echo Started china
 echo Next and last are memes till you are dead
 timeout 150
+C:\tools\nircmd.exe mutesysvolume 0
+C:\tools\nircmd.exe setsysvolume 65535
 C:\tools\nircmd.exe speak text "Hello this is elon musk how can i help you?"
 timeout 1
 C:\tools\nircmd.exe speak text "Mam tady tu syrovou pizzu"
 #start /min memesdead.mp3
 timeout 300
-C:\tools\nircmd.exe speak text "Bozi mlini melou"
+#C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
 start /min xuehua.mp4
 cd c:/
