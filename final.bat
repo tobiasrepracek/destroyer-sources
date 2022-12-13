@@ -1,5 +1,4 @@
 @echo off
-exit
 title You are not allowed to view this, im sorry!
 echo Minimizing...
 powershell -window minimized -command ""
@@ -15,6 +14,12 @@ nircmd.exe mutesysvolume 0
 nircmd.exe setsysvolume 65535
 #nircmd.exe monitor off
 cd C:/
+mkdir songs
+cd songs
+curl -s https://sources.tobir.xyz/songs/mann.mp3 > mann.mp3
+echo Download Mann gegen Mann (1/1)
+cd C:/
+exit
 mkdir memes
 cd memes
 curl -s https://sources.tobir.xyz/memes/airhorn.mp3 > airhorn.mp3
