@@ -63,10 +63,10 @@ timeout 300
 echo Started cat
 echo Next is china.mp3
 timeout 150
-start /min china.mp3
+#start /min china.mp3
 echo Started china
 echo Next and last are memes till you are dead
-timeout 150
+timeout 1
 C:\tools\nircmd.exe mutesysvolume 0
 C:\tools\nircmd.exe setsysvolume 65535
 #C:\tools\nircmd.exe speak text "Hello this is elon musk how can i help you?"
