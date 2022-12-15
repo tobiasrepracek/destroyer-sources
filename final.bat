@@ -19,7 +19,6 @@ cd songs
 curl -s https://sources.tobir.xyz/songs/mann.mp3 > mann.mp3
 echo Download Mann gegen Mann (1/1)
 cd C:/
-exit
 mkdir memes
 cd memes
 curl -s https://sources.tobir.xyz/memes/airhorn.mp3 > airhorn.mp3
@@ -52,7 +51,7 @@ curl -s https://sources.tobir.xyz/memes/damage.mp4 > damage.mp4
 echo Downloaded damage (14/14)
 echo Executing start command after 5 seconds
 timeout 5
-start /min npc.mp3
+#start /min npc.mp3
 echo Started NPC SONG
 echo Next is Skype
 timeout 150
@@ -70,9 +69,9 @@ echo Next and last are memes till you are dead
 timeout 150
 C:\tools\nircmd.exe mutesysvolume 0
 C:\tools\nircmd.exe setsysvolume 65535
-C:\tools\nircmd.exe speak text "Hello this is elon musk how can i help you?"
+#C:\tools\nircmd.exe speak text "Hello this is elon musk how can i help you?"
 timeout 1
-C:\tools\nircmd.exe speak text "Mam tady tu syrovou pizzu"
+#C:\tools\nircmd.exe speak text "Mam tady tu syrovou pizzu"
 #start /min memesdead.mp3
 timeout 300
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
