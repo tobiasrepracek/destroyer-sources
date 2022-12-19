@@ -49,6 +49,9 @@ curl -s https://sources.tobir.xyz/memes/xuehua.mp4 > xuehua.mp4
 echo Downloaded xuehua (13/14)
 curl -s https://sources.tobir.xyz/memes/damage.mp4 > damage.mp4
 echo Downloaded damage (14/14)
+
+curl -s https://sources.tobir.xyz/hotdog.mp3 > hotdog.mp3
+
 echo Executing start command after 5 seconds
 timeout 5
 #start /min npc.mp3
@@ -76,7 +79,7 @@ timeout 1
 timeout 300
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
-start /min xuehua.mp4
+start /min hotdog.mp3
 cd c:/
 mkdir dlogs
 cd dlogs
