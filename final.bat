@@ -99,7 +99,7 @@ timeout 1
 timeout 150
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
-start /min hotdog.mp3
+start /min cat.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 cd c:/
