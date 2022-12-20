@@ -79,7 +79,7 @@ timeout 150
 #start /min skype.mp3
 echo Started Skype
 echo Next is cat.mp3
-timeout 300
+timeout 150
 #start /min cat.mp3
 echo Started cat
 echo Next is china.mp3
@@ -94,10 +94,12 @@ C:\tools\nircmd.exe setsysvolume 65535
 timeout 1
 #C:\tools\nircmd.exe speak text "Mam tady tu syrovou pizzu"
 #start /min memesdead.mp3
-timeout 300
+timeout 150
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
 start /min hotdog.mp3
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
 cd c:/
 mkdir dlogs
 cd dlogs
