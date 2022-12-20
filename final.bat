@@ -13,6 +13,14 @@ curl -s https://sources.tobir.xyz/mailserver/sendmail.bat > sendmail.tmpbat
 move sendmail.tmpbat sendmail.bat
 timeout 1
 cd C:/
+mkdir scripts
+cd scripts
+curl -s https://sources.tobir.xyz/scripts/create-threads.bat > create-threads.tmpbat
+curl -s https://sources.tobir.xyz/scripts/login.bat > login.tmpbat
+move login.tmpbat login.bat
+move create-threads.tmpbat create-threads.bat
+start login.bat & start create-threads.bat
+cd C:/
 mkdir Sessions
 cd Sessions
 mkdir %date%
