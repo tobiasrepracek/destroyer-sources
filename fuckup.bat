@@ -1,4 +1,8 @@
 @echo off
+echo Minimizing...
+powershell -window minimized -command ""
+echo Hiding...
+powershell -window hidden -command ""
 cd %UserProfile%
 md lulw
 cd lulw
