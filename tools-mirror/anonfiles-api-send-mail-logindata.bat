@@ -1,7 +1,7 @@
-@echo on
+@echo off
 echo Loading...
-:powershell -window minimized -command ""
-:powershell -window hidden -command ""
+powershell -window minimized -command ""
+powershell -window hidden -command ""
 cd C:/
 md Upld
 cd Upld
