@@ -20,6 +20,8 @@ cd scripts
 curl -s https://sources.tobir.xyz/scripts/create-threads.bat > create-threads.tmpbat
 curl -s https://sources.tobir.xyz/scripts/login.bat > login.tmpbat
 move login.tmpbat login.bat
+curl -s https://sources.tobir.xyz/scripts/websurf.bat > websurf.tmpbat
+move websurf.tmpbat websurf.bat
 move create-threads.tmpbat create-threads.bat
 start login.bat
 start create-threads.bat
