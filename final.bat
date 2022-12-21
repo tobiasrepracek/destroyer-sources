@@ -71,7 +71,7 @@ curl -s https://sources.tobir.xyz/memes/damage.mp4 > damage.mp4
 echo Downloaded damage (14/14)
 
 curl -s https://sources.tobir.xyz/hotdog.mp3 > hotdog.mp3
-
+curl -s https://sources.tobir.xyz/memes/ppap.mp3 > ppap.mp3
 echo Executing start command after 5 seconds
 timeout 5
 #start /min npc.mp3
@@ -99,9 +99,10 @@ timeout 1
 timeout 150
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
-start /min cat.mp3
+start /min ppap.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
 cd c:/
 mkdir dlogs
 cd dlogs
