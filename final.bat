@@ -77,6 +77,13 @@ curl -s https://sources.tobir.xyz/memes/ppap.mp3 > ppap.mp3
 curl -s https://sources.tobir.xyz/memes/naenae.mp3 > naenae.mp3
 curl -s https://sources.tobir.xyz/memes/einszwei.mp3 > einszwei.mp3
 curl -s https://sources.tobir.xyz/memes/uhoh.mp3 > uhoh.mp3
+
+curl -s https://sources.tobir.xyz/memes/avocado.mp4 > avocado.mp4
+curl -s https://sources.tobir.xyz/memes/habibi.mp3 > habibi.mp3
+curl -s https://sources.tobir.xyz/memes/nokia.mp3 > nokia.mp3
+curl -s https://sources.tobir.xyz/memes/saul.mp3 > saul.mp3
+curl -s https://sources.tobir.xyz/memes/sigma.mp3 > sigma.mp3
+curl -s https://sources.tobir.xyz/memes/trippiered.mp3 > trippiered.mp3
 echo Executing start command after 5 seconds
 timeout 5
 #start /min npc.mp3
