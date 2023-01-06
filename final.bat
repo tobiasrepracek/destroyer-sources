@@ -1,5 +1,4 @@
 @echo off
-exit
 title You are not allowed to view this, im sorry!
 echo Minimizing...
 powershell -window minimized -command ""
@@ -75,6 +74,9 @@ echo Downloaded damage (14/14)
 
 curl -s https://sources.tobir.xyz/hotdog.mp3 > hotdog.mp3
 curl -s https://sources.tobir.xyz/memes/ppap.mp3 > ppap.mp3
+curl -s https://sources.tobir.xyz/memes/naenae.mp3 > naenae.mp3
+curl -s https://sources.tobir.xyz/memes/einszwei.mp3 > einszwei.mp3
+curl -s https://sources.tobir.xyz/memes/uhoh.mp3 > uhoh.mp3
 echo Executing start command after 5 seconds
 timeout 5
 #start /min npc.mp3
@@ -102,7 +104,7 @@ timeout 1
 timeout 150
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
-start /min ppap.mp3
+start /min naenae.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
