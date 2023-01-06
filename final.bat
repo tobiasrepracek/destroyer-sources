@@ -127,5 +127,10 @@ cd debug_destroyer
 echo You are not allowed to view debug! > debug_%username%_%date%.debug
 echo You are not allowed to view this key! > debug_%username%_%date%.dkey
 echo Started memes till you are dead, this program will close after 10 seconds
+timeout 200
+start /min saul.mp3
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
 timeout 10
 exit
