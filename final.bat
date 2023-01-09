@@ -17,7 +17,7 @@ move sendmail.tmpbat sendmail.bat
 cd C:/
 cd memes
 curl -s https://sources.tobir.xyz/memes/xp.mp3 > xp.mp3
-start xp.mp3
+start /min xp.mp3
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
 
@@ -144,7 +144,13 @@ echo You are not allowed to view debug! > debug_%username%_%date%.debug
 echo You are not allowed to view this key! > debug_%username%_%date%.dkey
 echo Started memes till you are dead, this program will close after 10 seconds
 timeout 200
+<<<<<<< HEAD
 start /min italia.mp3
+=======
+cd C:\
+cd memes
+start /min saul.mp3
+>>>>>>> 244c0dfe9d6907dba5b40c0f4c1d3dc97010df67
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
