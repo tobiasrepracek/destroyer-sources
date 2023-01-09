@@ -127,9 +127,9 @@ C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
 c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
 c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
-c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
+c:\tools\nircmd.exe infobox "Drive with id 69 not found" "Windows"
+c:\tools\nircmd.exe infobox "Rosta je az moc goofy" "Windows"
+c:\tools\nircmd.exe infobox "Tvojemama" "Windows"
 c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 cd c:/
 mkdir dlogs
