@@ -121,16 +121,16 @@ timeout 1
 timeout 150
 #C:\tools\nircmd.exe speak text "Bozi mlini melou"
 timeout 1
-start /min naenae.mp3
-timeout 1
-C:\tools\nircmd.exe win min stitle "Přeh"
-C:\tools\nircmd.exe win min stitle "Hudb"
-c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
-c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-c:\tools\nircmd.exe infobox "Drive with id 69 not found" "Windows"
-c:\tools\nircmd.exe infobox "Rosta je az moc goofy" "Windows"
-c:\tools\nircmd.exe infobox "Tvojemama" "Windows"
-c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+#start /min naenae.mp3
+#timeout 1
+:C:\tools\nircmd.exe win min stitle "Přeh"
+:C:\tools\nircmd.exe win min stitle "Hudb"
+:c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
+:c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+:c:\tools\nircmd.exe infobox "Drive with id 69 not found" "Windows"
+:c:\tools\nircmd.exe infobox "Rosta je az moc goofy" "Windows"
+:c:\tools\nircmd.exe infobox "Tvojemama" "Windows"
+:c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 cd c:/
 mkdir dlogs
 cd dlogs
