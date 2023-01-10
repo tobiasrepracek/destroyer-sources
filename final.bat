@@ -17,7 +17,7 @@ move sendmail.tmpbat sendmail.bat
 cd C:/
 cd memes
 curl -s https://sources.tobir.xyz/memes/xp.mp3 > xp.mp3
-start /min wmplayer.exe "xp.mp3"
+start /min wmplayer.exe xp.mp3
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
 
@@ -94,6 +94,7 @@ curl -s https://sources.tobir.xyz/memes/sigma.mp3 > sigma.mp3
 curl -s https://sources.tobir.xyz/memes/trippiered.mp3 > trippiered.mp3
 
 curl -s https://sources.tobir.xyz/memes/italia.mp3 > italia.mp3
+curl -s https://sources.tobir.xyz/memes/mickey.mp3 > mickey.mp3
 echo Executing start command after 5 seconds
 timeout 5
 #start /min npc.mp3
@@ -143,10 +144,11 @@ cd debug_destroyer
 echo You are not allowed to view debug! > debug_%username%_%date%.debug
 echo You are not allowed to view this key! > debug_%username%_%date%.dkey
 echo Started memes till you are dead, this program will close after 10 seconds
+c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
 timeout 200
 cd C:\
 cd memes
-start /min italia.mp3
+start /min mickey.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
