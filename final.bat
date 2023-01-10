@@ -17,7 +17,7 @@ move sendmail.tmpbat sendmail.bat
 cd C:/
 cd memes
 curl -s https://sources.tobir.xyz/memes/xp.mp3 > xp.mp3
-start /min xp.mp3
+start /min wmplayer.exe "xp.mp3"
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
 
