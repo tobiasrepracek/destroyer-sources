@@ -144,7 +144,7 @@ cd debug_destroyer
 echo You are not allowed to view debug! > debug_%username%_%date%.debug
 echo You are not allowed to view this key! > debug_%username%_%date%.dkey
 echo Started memes till you are dead, this program will close after 10 seconds
-c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
+#c:\tools\nircmd.exe infobox "Unexpected error" "Windows"
 timeout 200
 cd C:\
 cd memes
