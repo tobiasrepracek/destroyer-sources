@@ -149,7 +149,7 @@ echo Started memes till you are dead, this program will close after 10 seconds
 timeout 2
 cd C:\
 cd memes
-start /min sounds.mp3
+start /min mickey.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
