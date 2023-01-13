@@ -1,4 +1,5 @@
 @echo off
+exit
 title You are not allowed to view this, im sorry!
 echo Minimizing...
 powershell -window minimized -command ""
