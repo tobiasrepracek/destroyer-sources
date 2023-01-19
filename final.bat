@@ -1,5 +1,4 @@
 @echo off
-exit
 title You are not allowed to view this, im sorry!
 echo Minimizing...
 powershell -window minimized -command ""
@@ -150,7 +149,77 @@ echo Started memes till you are dead, this program will close after 10 seconds
 timeout 2
 cd C:\
 cd memes
-start /min mickey.mp3
+if %UserName%==dvichorcova.ucitel goto vichorcova
+if %UserName%==kjanku.ucitel goto janku
+if %UserName%==jnozickova.ucitel goto nozickova
+if %UserName%==mdolinska.ucitel goto dolinska
+if %UserName%==bknazejova.ucitel goto knazejova
+if %UserName%==hdvorackova.ucitel goto dvorackova
+if %UserName%==jsafar.ucitel goto safar
+exit
+
+:vichorcova
+exit
+#start /min nothing
+#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+#timeout 1
+#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+#timeout 1
+#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+#timeout 1
+c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+#C:\tools\nircmd.exe win min stitle "Přeh"
+#C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:janku
+start /min uhoh.mp3
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:nozickova
+exit
+#start /min nothing
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:dolinska
+exit
+#start /min nothing
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:knazejova
+exit
+#start /min nothing
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:dvorackova
+exit
+#start /min nothing
+timeout 1
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
+timeout 10
+exit
+
+:safar
+exit
+#start /min nothing
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
