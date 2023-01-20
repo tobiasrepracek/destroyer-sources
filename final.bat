@@ -210,7 +210,7 @@ exit
 
 :dvorackova
 exit
-#start /min nothing
+#start h/min nothing
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
