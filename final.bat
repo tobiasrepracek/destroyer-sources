@@ -174,6 +174,7 @@ timeout 10
 exit
 
 :janku
+exit
 start /min uhoh.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
