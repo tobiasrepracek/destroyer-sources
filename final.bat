@@ -210,8 +210,7 @@ timeout 10
 exit
 
 :dvorackova
-exit
-#start h/min nothing
+start /min uhoh.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
