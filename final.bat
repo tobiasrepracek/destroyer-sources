@@ -174,11 +174,10 @@ timeout 10
 exit
 
 :janku
-exit
-start /min uhoh.mp3
+start /min avocado.mp4
 timeout 1
-C:\tools\nircmd.exe win min stitle "Přeh"
-C:\tools\nircmd.exe win min stitle "Hudb"
+:C:\tools\nircmd.exe win min stitle "Přeh"
+:C:\tools\nircmd.exe win min stitle "Hudb"
 timeout 10
 exit
 
