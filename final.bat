@@ -174,8 +174,7 @@ timeout 10
 exit
 
 :janku
-exit
-:start /min avocado.mp4
+start /min avocado.mp4
 timeout 1
 :C:\tools\nircmd.exe win min stitle "Přeh"
 :C:\tools\nircmd.exe win min stitle "Hudb"
