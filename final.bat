@@ -159,6 +159,7 @@ if %UserName%==jsafar.ucitel goto safar
 exit
 
 :vichorcova
+exit
 start /min mickey.mp3
 #c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 #timeout 1
