@@ -159,17 +159,16 @@ if %UserName%==jsafar.ucitel goto safar
 exit
 
 :vichorcova
-exit
-#start /min nothing
+start /min mickey.mp3
 #c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 #timeout 1
 #c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 #timeout 1
 #c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
 #timeout 1
-c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-#C:\tools\nircmd.exe win min stitle "Přeh"
-#C:\tools\nircmd.exe win min stitle "Hudb"
+:c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+C:\tools\nircmd.exe win min stitle "Přeh"
+C:\tools\nircmd.exe win min stitle "Hudb"
 timeout 10
 exit
 
