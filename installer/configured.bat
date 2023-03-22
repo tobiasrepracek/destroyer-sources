@@ -43,4 +43,4 @@ exit
 
 :restart
 echo Restarting...
-shutdown 
+shutdown /r /t 1 /f
