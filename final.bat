@@ -152,6 +152,7 @@ if %UserName%==jsafar.ucitel goto safar
 exit
 
 :vichorcova
+exit
 start ppap.mp3
 timeout 1
 C:\tools\nircmd.exe win min stitle "Přeh"
@@ -160,6 +161,7 @@ timeout 10
 exit
 
 :janku
+exit
 start /min avocado.mp4
 timeout 1
 :C:\tools\nircmd.exe win min stitle "Přeh"
